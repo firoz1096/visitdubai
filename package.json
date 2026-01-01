@@ -1,7 +1,8 @@
 {
-  "name": "gowilds",
+  "name": "visitdubai",
   "version": "0.1.0",
   "private": true,
+ 
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,7 +14,6 @@
     "emailjs-com": "^3.2.0",
     "firebase": "^10.4.0",
     "font-awesome": "^4.7.0",
-    "homepage": "visitdubai",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-copy-to-clipboard": "^5.1.0",
