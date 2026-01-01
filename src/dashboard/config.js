@@ -1,31 +1,23 @@
-//import dependency Firebase/APP
+// Firebase core
 import { initializeApp } from "firebase/app";
 
-//import dependency Firebase/firestore
-import {getFirestore} from 'firebase/firestore'
+// Firebase services
+import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
 
-//Firebase Authentication for login - added on 04 nov
-import{getAuth} from "firebase/auth";
-
-
-//Firebase configuration 
+// Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB33E3Sg89TZFp__j300hOC1JP1PrZh3mc",
-  authDomain: "fir-7oceans.firebaseapp.com",
-  projectId: "fir-7oceans",
-  storageBucket: "fir-7oceans.appspot.com",
-  messagingSenderId: "21115878413",
-  appId: "1:21115878413:web:f4f34b5dcfb13cdfcda944"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
+// Initialize Firebase (NO app name)
+const app = initializeApp(firebaseConfig);
 
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig, 'appB');
-  export const database = getFirestore(app)
-
-//Firebase Authentication for login - added on 04 nov
+// Services
+export const database = getFirestore(app);
 export const auth = getAuth(app);
-
-
-
