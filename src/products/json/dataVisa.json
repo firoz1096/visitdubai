@@ -1,0 +1,34 @@
+{
+  "visa" : [
+   
+      {
+
+         "id": 1,
+         "title": "Short Term Tourist Visa",
+         "price": 28,
+         "imageUrl": "v1.jpg"
+      },
+      
+      {
+         "id": 2,
+         "title": "Long Term Tourist Visa",
+         "price": 28,
+         "imageUrl": "v2.jpg"
+      },
+      
+      {
+         "id": 3,
+         "title": "Umrah Visa",
+         "price": 28,
+         "imageUrl": "v1.jpg"
+      },
+            
+      {
+         "id": 4,
+         "title": "Golden Visa",
+         "price": 28,
+         "imageUrl": "v1.jpg"
+      }
+
+  ]
+}

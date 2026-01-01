@@ -1,0 +1,87 @@
+
+
+.searchbar {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+    z-index: 999;
+    display: none;
+    background-color: rgba(13, 18, 23, 0.75);
+    //background-color: #fff;
+
+
+
+
+
+table {
+    margin: 0 0 0 auto;
+
+
+    input:focus { 
+
+        box-shadow: none;
+        outline: none;
+    }
+
+}
+
+.btn_close { 
+
+    svg {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+}
+
+    .form-control,
+    .btn {
+        height: 50px;
+        border-radius: 0;
+        line-height: 50px;
+        //border: solid 1px $pr-base;
+        border: none;
+        font-size: 2rem;
+        //color: $se-base;
+
+        &:focus {
+            outline: none;
+            border: none;
+       }
+
+    }
+
+    
+    
+    .btn {
+
+        background: $se-base;
+        padding: 0 10px;
+        svg {      
+            color: #fff;
+        }
+    }
+
+
+}
+
+
+
+
+//serach results
+
+.search_results {
+
+    a {
+
+        color: #1a0dab;
+    }
+
+
+}
+
+

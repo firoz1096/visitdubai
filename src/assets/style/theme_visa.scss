@@ -1,0 +1,84 @@
+
+
+
+.visa_products {
+
+    position: relative;
+
+    .visa_item {
+        position: relative;
+        background-color: $pr-base;
+        border-radius: 6px;
+
+        &:hover {
+            
+            img {
+
+                opacity: 0.3;
+
+                
+            }
+
+           .wrapper {
+            
+            .content { 
+
+                bottom: 3rem;
+                transition-duration:0.5s;
+
+
+            }
+
+
+           }
+
+
+
+        }
+
+
+
+        img {     
+            border-radius: 6px;
+            width: 100%;
+            height: 300px;
+            opacity: 0.5; 
+        }
+
+        
+        .wrapper {
+            position: absolute;
+            bottom: 0rem;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 103; 
+
+            .content {
+                position: absolute;
+                width: 100%;
+                bottom: 1rem;
+                padding: 1.4rem;
+                text-align: center;
+
+
+
+                h4,
+                p {
+                    color: #fff;
+                }
+
+                h4 {
+                    font-weight: 900;
+                }
+
+
+            }
+        }
+
+    }
+
+    
+
+
+}

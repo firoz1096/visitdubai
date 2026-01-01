@@ -1,0 +1,172 @@
+
+
+.product_details_bg {
+   
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .wrap_bg {
+        background: rgba(57, 56, 56, 0.7);
+        height: 100%;
+
+        h1 {  
+            color: #fff;
+            font-weight: 600;
+
+         }
+    
+
+    }
+   
+
+
+}
+
+
+
+.form_details {
+
+    background-color: #ced2d0;
+    padding: 2rem;
+
+    .form-label {
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+
+
+  
+}
+
+
+
+.activity_details {
+
+
+
+   
+       ul {
+   
+           margin: 1rem 0 0 0;
+           padding: 0;
+   
+           li {
+            list-style-type: none;
+            margin-bottom: 1rem;
+
+        }
+   
+           
+       }
+
+
+
+
+       .inclusion {
+
+        ul {
+    
+            li {
+
+                padding-left: 30px;
+                position: relative;
+  
+                &:before {
+                 font-family: "Font Awesome 5 Free";    
+                 content: "\f00c";
+                 font-weight: 900;
+                 margin-right: 4px;
+                 color: #28a745;
+                 position: absolute;
+                 left: 1px;
+                 top: 1px;
+             
+            }
+         }  
+            
+        }
+
+       }
+
+
+       .exclusions {
+
+        ul {
+    
+            li {
+
+                padding-left: 30px;
+                position: relative;
+  
+                &:before {
+                 font-family: "Font Awesome 5 Free";    
+                 content: "\f00d";
+                 font-weight: 900;
+                 margin-right: 4px;
+                 color: #dc3545;
+                 position: absolute;
+                 left: 1px;
+                 top: 1px;
+             
+            }
+         }  
+            
+        }
+
+       }
+
+
+       .terms_conditions {
+
+        ul {
+    
+            li {
+            
+                padding-left: 30px;
+                position: relative;
+ 
+                &:before {
+                 font-family: "Font Awesome 5 Free";    
+                 content: "\f192";
+                 font-weight: 900;
+                 color: #5b5959;
+                 position: absolute;
+                 left: 1px;
+                 top: 1px;
+             
+            }
+         }  
+            
+        }
+
+       }
+
+       
+   
+   }
+
+
+
+   .navigation {
+
+    span {
+
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 14px;
+        //color: #958b8b;
+
+        svg {
+            color: #787676;
+        }
+
+
+        a {
+            color: $pr-base;
+
+        }
+    }
+
+   }

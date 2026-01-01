@@ -1,0 +1,56 @@
+{
+    "destinations": [
+      {
+        "id": 1,
+        "title": "Egypt",
+        "day": 5,
+        "night": 6,
+        "price": 270,
+        "imageUrl": "Egypt.jpg"
+      },
+  
+      {
+        "id": 2,
+        "title": "Greece",
+        "day": 6,
+        "night": 6,
+        "price": 260,
+        "imageUrl": "Greece.jpg"
+      },
+
+      {
+        "id": 3,
+        "title": "Armenia",
+        "day": 5,
+        "night": 6,
+        "price": 250,
+        "imageUrl": "Armenia.jpg"
+      },
+
+      {
+        "id": 4,
+        "title": "Kenya",
+        "day": 5,
+        "night": 6,
+        "price": 240,
+        "imageUrl": "Kenya.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Italy",
+        "day": 5,
+        "night": 6,
+        "price": 240,
+        "imageUrl": "Italy.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Turkey",
+        "day": 5,
+        "night": 6,
+        "price": 230,
+        "imageUrl": "Turkey.jpg"
+      }
+  
+    ]
+  }

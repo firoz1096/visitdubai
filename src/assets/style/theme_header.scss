@@ -1,0 +1,187 @@
+
+
+.logo {
+
+  text-decoration: none;
+    font-size: 1.3rem;  
+    letter-spacing: 1px;
+
+ .L_1 {
+      color: #fff;
+       font-weight: 300;
+    }
+
+    .L_2 {
+     color: #fff;
+     font-weight: 500;
+    
+    }
+
+    .L_3 {
+      color: $se-base;
+       font-weight: 600;
+    }
+  
+
+
+
+}
+
+
+//extra css
+
+h3 {
+  font-weight: 600;
+}
+
+
+
+.btn_close {
+      background-color: transparent;
+      border: none;
+      font-size: 2rem;
+}
+
+
+.btn {
+  padding: 10px;
+
+}
+
+.btn-primary {
+
+  background-color: $pr-base;
+  border-color: $pr-base;
+
+  &:hover {
+    background-color: $se-base;
+    border-color: $se-base;
+
+  }
+
+  // &:after {
+
+  //   font-family: "Font Awesome 5 Free";
+  //   content: "\f30b";
+  //   font-size: 70%;
+  //   font-weight: 900;
+  // }
+
+
+}
+
+.btn_all { 
+
+  padding: 12px 18px;
+  border: solid 2px $se-base;
+  color: $se-base;
+  font-weight: 600;
+
+  &:hover {
+
+    background-color: $se-base;
+    border-color: $se-base;
+    color: $light-base;
+  }
+
+      
+
+
+
+
+}
+
+
+.btn {
+
+  &:focus,
+  .active
+    
+  {
+    background-color: $se-base;
+    border-color: $se-base;
+    box-shadow: none!important;
+    outline: none;
+    
+  }
+
+}
+
+
+@media only screen and (max-width: 992px) { 
+  .hide_mobile {
+    display: none!important;
+  }
+}
+
+
+@media only screen and (min-width: 992px) { 
+  .hide_desktop {
+    display: none!important;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 768px)  {    
+  .slice_li {
+    display: none!important;
+  }
+}
+
+
+.copy_to_area {
+
+  .btn-outline-primary {
+
+    &:focus {
+
+      background-color: #0d6efd;
+      border-color: #0d6efd;
+      color: #fff;
+  }
+  }
+
+
+  .copied {
+
+    position: absolute;
+    color: red;
+  }  
+  
+}
+
+.subPage {
+
+  padding-top: 3rem;
+
+  @media only screen and (max-width: 992px) { 
+    padding-top: 2rem;
+
+  }
+
+
+}
+
+
+.popupConfirm {
+display: none;
+padding: 1rem;
+border: solid 1px #ccc;
+background-color: #fff;
+
+position: fixed; 
+left: 0; 
+right: 0; 
+top: 50%;
+margin-left: auto; 
+margin-right: auto; 
+width: 300px; 
+
+
+}
+
+.popupConfirmed {
+
+  display: block;
+}
+

@@ -1,0 +1,53 @@
+{
+    "tours": [
+      {
+        "id": 1,
+        "title": "Desert Safari",
+        "price": 150,
+        "duration": 6,
+        "imageUrl": "Desert-Safari.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Dhow Cruise Dinner",
+        "price": 110,
+        "duration": 6,
+        "imageUrl": "Dhow-Cruise.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Dubai City Tour",
+        "price": 100,
+        "duration": 6,
+        "imageUrl": "Dubai-City-Tour.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Abu Dhabi City Tour",
+        "price": 240,
+        "duration": 6,
+        "imageUrl": "Abu-Dhabi-Mosque.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Hatta Safari",
+        "price": 240,
+        "duration": 6,
+        "imageUrl": "Hatta-Safari.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Wonder Bus Tours",
+        "price": 240,
+        "duration": 6,
+        "imageUrl": "Wonder-Bus.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Ferrari World, Abu Dhabi",
+        "price": 240,
+        "duration": 6,
+        "imageUrl": "Ferrari-World.jpg"
+      }
+    ]
+  }

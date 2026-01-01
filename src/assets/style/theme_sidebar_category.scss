@@ -1,0 +1,119 @@
+.sidebar {
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    width:380px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -380px;
+    height: 100%;
+    overflow: auto;
+    transition:0.2s all ease-in-out;
+
+    @media only screen and (max-width: 768px) { 
+      width: 100%;
+      left: -100%;
+    }
+            
+      h4 {
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+
+
+
+      .cat_box {
+        background: #fefefe;
+        border: solid 1px #eee;
+        text-align: center;
+        text-decoration: none; 
+        display: block;
+        color: #494949;
+        padding: 0.6rem;
+        margin-bottom: 2rem;
+        border-radius: 4px;
+       
+
+       &:hover {
+        background-color: $se-base;
+        color: #fff;
+        
+       }
+   
+       
+        .cat_icon {
+          margin: -1.8rem auto 0 auto;
+          display: flex;
+          width: 60px;
+          height: 60px;
+          background: #fff;
+          border-radius: 50%;
+          padding: 1rem; 
+          box-shadow: 3px 5px 35px rgba(86,68,169,.1);
+          border: solid 1px $se-base;
+        }
+
+          img {
+            max-width: 100%;
+          }
+
+          h5 {         
+            font-size: 0.9rem;
+            margin-top: 0.6rem;
+            font-weight: 500;
+
+
+
+          }      
+       
+      }
+
+  }
+  .sidebar.opened {
+    left: 0;
+    transition:0.2s all ease-in-out;
+  }
+
+
+
+
+  //adding class to body tag show overlay for sdebar.
+
+  .s_wrap {
+    display: inline-block;
+ }
+
+
+
+ 
+  @media only screen and (min-width: 992px) { 
+
+  .side_Open {
+
+    overflow: hidden;
+
+    .s_wrap {
+  
+        position: fixed; 
+        width: 100vw; 
+        height: 100vh; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5); 
+        z-index: 400; 
+        
+
+    }
+  
+  }
+
+  }
+
+
+ 
+  
+
+  

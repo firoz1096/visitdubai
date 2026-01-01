@@ -1,0 +1,133 @@
+
+
+.footer_lg {
+
+    background-color: $pr-base;
+    padding: 3rem 0;
+    margin-top: 5rem;
+
+    h5 {
+
+        color:#eee7e7;
+        font-size: 1rem;
+        @media only screen and (max-width: 768px) { 
+            margin: 0 0 0 2rem;
+        }
+    }
+
+    ul {
+
+        margin: 0 0 2rem 0;
+        padding: 0;
+
+        @media only screen and (max-width: 768px) { 
+            margin: 0 0 2rem 2rem;
+        }
+
+        li {
+
+            margin: 0.5rem 0;
+            display: block;
+            color:#ABABB0;
+
+            a {
+
+                color:#ABABB0;
+                text-decoration: none;
+                font-size: 0.9rem;
+
+                &:hover  {
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+
+
+    .connect_with_us {
+
+        a {
+            font-size: 1.6rem;
+            display: inline-block;
+            margin-right: 1.2rem;
+            color:#ABABB0;
+                    
+        }
+    }
+
+
+        .copyright,
+        .info_links {
+            font-size: 0.8rem;
+            color: #b0aaaa;
+
+            @media only screen and (max-width: 768px) { 
+                margin: 0 0 0 2rem;
+            }
+        }
+
+        .info_links {
+
+            a {
+                text-decoration: none;
+                color: #b0aaaa;
+                margin-right: 1rem;
+
+               &:hover {
+
+                text-decoration: underline;
+               }
+
+            }
+        }
+
+
+}
+
+
+
+.WhatsApp {
+
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    display: block;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #11be16;
+    border: solid 1px #11be16;
+    z-index: 400;
+    padding: 10px;
+
+
+ svg {
+
+
+    font-size: 2.5rem;
+    color: $light-base;
+ }
+  
+}
+
+
+//react WhatsApp Widgets
+.whatsapp_widget_icon {
+
+    border: none!important;
+}
+
+.copyright {
+
+ 
+ a {
+    color: #b0aaaa;
+    text-decoration: none;
+
+    &:hover {
+
+        text-decoration: underline;
+        
+    }
+ }
+}

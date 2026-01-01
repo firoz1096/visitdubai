@@ -1,0 +1,105 @@
+
+
+
+
+.destination_products {
+
+    position: relative;
+
+    .wrapper {
+
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 16px;
+        border-radius: 6px;
+       
+
+        .image_holder {
+
+            position: relative;
+           
+
+            img {
+                width: 100%;
+                max-height: 300px;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+                margin-bottom: 10px;
+            }
+
+            .duration {
+                background: $se-base;
+                border-radius: 3px;
+                bottom: 0;
+                -webkit-clip-path: polygon(9% 0,90% 3%,100% 94%,0 100%);
+                clip-path: polygon(9% 0,90% 3%,100% 94%,0 100%);
+                color: #fff;
+                font-size: 1rem;
+                font-weight: 600;
+                left: 20px;
+                padding: 9px 32px;
+                position: absolute;
+                text-transform: capitalize;
+                -webkit-transform: translateY(50%);
+                transform: translateY(50%);
+                
+            }
+
+        }
+
+       
+
+
+        .content {
+
+            padding: 15px 25px 25px 25px;
+
+
+            .title {
+
+                h5 {
+
+                    font-size: 1.3rem;
+                    font-weight: 700;
+    
+                }
+
+            }
+
+
+            .bp {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+
+                h6 {
+
+                    font-weight: 800;
+                    color: $se-base;
+
+                    span {
+
+                        font-size: 80%;
+                        font-weight: normal;
+                        color: black;
+
+                        @media only screen and (max-width: 768px) { 
+
+                            display: block;
+
+                        }
+                    }
+                }
+            }
+           
+        }
+
+    }
+
+
+
+}
+
+
+
+.tox-notification { display: none !important }

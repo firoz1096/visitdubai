@@ -1,0 +1,59 @@
+
+.join_newsletter {
+
+        background: url("../slider/newsletter.png") no-repeat center top;
+        height: 372px;
+        background-size: cover;
+        position: relative;
+        padding-top: 8.5rem;
+      
+
+    
+        h3 {
+          font-size: 2rem;
+            color: #fff;
+            font-weight: 600;
+
+            @media only screen and (max-width: 992px) { 
+              font-size: 1.5rem;
+
+            }
+
+        }
+
+        p { 
+          color: #fff;
+          font-weight: 300;
+        
+        }
+
+
+        .form-control{
+
+            height: 50px;
+            border-radius: 0px;
+            border: none;
+            &:focus {
+
+             box-shadow: none;
+             border: none;
+            }
+
+        }
+
+        .btn_subscribe { 
+
+            border: solid 2px #fff;
+            color: #fff;
+            font-weight: 600;
+            height: 50px;        
+          
+            &:hover {     
+              background-color: $se-base;
+              border-color: $se-base;
+              color: $light-base;
+            }         
+          
+          }
+
+}
